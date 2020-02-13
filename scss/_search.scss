@@ -1,0 +1,25 @@
+// main: main.scss
+.search-input {
+	position: relative;
+	margin: 20px 0;
+
+	& input {
+		width: 100%;
+		background: transparent;
+		height: 50px;
+		border: 1px solid $gray;
+		border-radius: 25px;
+		padding-left: 30px;
+	}
+
+	& input::placeholder {
+		color: $gray;
+		font-size: 15px;
+	}
+
+	& img {
+		position: absolute;
+		top: 15px;
+		right: 30px;
+	}
+}

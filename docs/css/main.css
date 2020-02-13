@@ -36,6 +36,10 @@ h4 {
   margin: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -190,6 +194,101 @@ h4 {
   font-size: 13px;
 }
 
+.first-screen {
+  background-image: url(../img/main-screen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 75px 0 65px;
+}
+
+.first-screen h1 {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 40px;
+  color: #ffffff;
+  width: 465px;
+  margin-bottom: 20px;
+}
+
+.first-screen__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.first-screen__list li {
+  font-size: 15px;
+  font-weight: 400;
+  width: 200px;
+  list-style: disc;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.first-screen__btn {
+  background-color: #e8ce3b;
+  width: 210px;
+  height: 50px;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.first-screen__btn a {
+  color: #363636;
+  text-decoration: none;
+}
+
+.search-input {
+  position: relative;
+  margin: 20px 0;
+}
+
+.search-input input {
+  width: 100%;
+  background: transparent;
+  height: 50px;
+  border: 1px solid #959595;
+  border-radius: 25px;
+  padding-left: 30px;
+}
+
+.search-input input::-webkit-input-placeholder {
+  color: #959595;
+  font-size: 15px;
+}
+
+.search-input input:-ms-input-placeholder {
+  color: #959595;
+  font-size: 15px;
+}
+
+.search-input input::-ms-input-placeholder {
+  color: #959595;
+  font-size: 15px;
+}
+
+.search-input input::placeholder {
+  color: #959595;
+  font-size: 15px;
+}
+
+.search-input img {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+
 .footer__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -261,6 +360,8 @@ h4 {
   font-weight: 500;
   color: #e8ce3b;
   padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
 }
 
 .footer__phone-descr {
@@ -274,6 +375,8 @@ h4 {
   font-weight: 500;
   color: #e8ce3b;
   padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
 }
 
 .footer__mail-descr {
@@ -288,6 +391,8 @@ h4 {
   font-weight: 500;
   color: #e8ce3b;
   padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
 }
 
 .footer__addr-title,
