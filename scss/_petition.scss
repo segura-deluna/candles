@@ -1,0 +1,135 @@
+// main: main.scss
+
+.petition {
+	padding: 80px 0 80px;
+	background-color: $develop;
+}
+
+.petition__wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.petition__descr {
+	width: 400px;
+
+	& h2 {
+		font-size: 35px;
+		font-weight: 900;
+		margin-bottom: 40px;
+	}
+
+	& p {
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 25px;
+		margin-bottom: 30px;
+	}
+
+	& img {
+		margin-left: 100px;
+	}
+}
+
+
+.petition__form {
+	width: 755px;
+	height: 430px;
+	background-color: #ffffff;
+	box-shadow: 0 0 30px rgba($color: #000000, $alpha: .07);
+	padding: 60px 55px;
+}
+
+.petition__form-row {
+	display: flex;
+	justify-content: space-between;
+
+	& button {
+		width: 300px;
+		height: 60px;
+		background-color: $yellow;
+		border: none;
+		border-radius: 3px;
+		font-size: 15px;
+		font-weight: 500;
+		color: $dark;
+	}
+}
+
+.petition__form-item {
+	& p {
+		font-size: 13px;
+		font-weight: 400;
+		color: $gray;
+		margin-bottom: 20px;
+	}
+
+	& input {
+		width: 300px;
+		height: 60px;
+		background-color: $develop;
+		border: 1px solid $gray;
+		border-radius: 3px;
+		margin-bottom: 40px;
+		padding-left: 25px;
+
+		&::placeholder {
+			color: $placehold;
+			font-size: 15px;
+			font-weight: 700;
+		}
+	}
+}
+
+.check {
+	position: relative;
+	width: 300px;
+}
+
+.check-input {
+	appearance: none;
+	position: absolute;
+}
+
+.check-label {
+	font-size: 13px;
+	font-weight: 400;
+	color: $gray;
+
+	& p {
+		width: 270px;
+		margin-left: 40px;
+	}
+
+	&::before {
+		content: "";
+		display: block;
+		width: 30px;
+		height: 30px;
+		border: 1px solid $gray;
+		border-radius: 3px;
+		background-color: #ffffff;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+
+	&::after {
+		content: "";
+		width: 30px;
+		height: 30px;
+		display: block;
+		background: url(../img/check.svg) no-repeat;
+		background-size: 15px 15px;
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		z-index: 2;
+		opacity: 0;
+	}
+}
+
+.check-input:checked+.check-label::after {
+	opacity: 1;
+}

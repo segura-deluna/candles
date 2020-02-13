@@ -526,6 +526,166 @@ button {
   text-decoration: none;
 }
 
+.petition {
+  padding: 80px 0 80px;
+  background-color: #f7f7f7;
+}
+
+.petition__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.petition__descr {
+  width: 400px;
+}
+
+.petition__descr h2 {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.petition__descr p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.petition__descr img {
+  margin-left: 100px;
+}
+
+.petition__form {
+  width: 755px;
+  height: 430px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
+  padding: 60px 55px;
+}
+
+.petition__form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.petition__form-row button {
+  width: 300px;
+  height: 60px;
+  background-color: #e8ce3b;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #363636;
+}
+
+.petition__form-item p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #959595;
+  margin-bottom: 20px;
+}
+
+.petition__form-item input {
+  width: 300px;
+  height: 60px;
+  background-color: #f7f7f7;
+  border: 1px solid #959595;
+  border-radius: 3px;
+  margin-bottom: 40px;
+  padding-left: 25px;
+}
+
+.petition__form-item input::-webkit-input-placeholder {
+  color: #a9a9a9;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.petition__form-item input:-ms-input-placeholder {
+  color: #a9a9a9;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.petition__form-item input::-ms-input-placeholder {
+  color: #a9a9a9;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.petition__form-item input::placeholder {
+  color: #a9a9a9;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.check {
+  position: relative;
+  width: 300px;
+}
+
+.check-input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: absolute;
+}
+
+.check-label {
+  font-size: 13px;
+  font-weight: 400;
+  color: #959595;
+}
+
+.check-label p {
+  width: 270px;
+  margin-left: 40px;
+}
+
+.check-label::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #959595;
+  border-radius: 3px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.check-label::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: url(../img/check.svg) no-repeat;
+  background-size: 15px 15px;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  z-index: 2;
+  opacity: 0;
+}
+
+.check-input:checked + .check-label::after {
+  opacity: 1;
+}
+
 .footer__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
