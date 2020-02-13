@@ -1,0 +1,41 @@
+// main: main.scss
+
+
+.catalog-list {
+	width: 250px;
+	max-height: 1040px;
+	border: 1px solid $gray-btn;
+	border-radius: 5px;
+}
+
+.catalog-list__head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $yellow;
+	padding: 17px 35px 15px 25px;
+}
+
+.catalog-list__title {
+	& h3 {
+		font-size: 15px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+
+.catalog-list__tab {
+	padding: 0 20px;
+
+	& li {
+		font-size: 15px;
+		font-weight: 400;
+		color: $text-list;
+		padding: 15px 0 15px;
+		border-bottom: 1px solid $gray-btn;
+	}
+
+	& li:nth-child(20) {
+		border-bottom: none;
+	}
+}
