@@ -1,1 +1,144 @@
 // main: main.scss
+
+.footer__wrap {
+	display: flex;
+	justify-content: space-between;
+	padding: 75px 0 65px;
+}
+
+.footer__contact {
+	width: 230px;
+
+	& h2 {
+		font-size: 35px;
+		font-weight: 900;
+		margin-bottom: 20px;
+	}
+}
+
+.footer__contact-submit {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	& button {
+		width: 170px;
+		height: 45px;
+		border-radius: 3px;
+		border: none;
+		background-color: $yellow;
+		color: $black-text;
+		font-size: 13px;
+		font-weight: 700;
+		text-transform: uppercase;
+	}
+}
+
+.footer__addr {
+	width: 260px;
+	display: flex;
+	justify-content: space-between;
+
+	& img {
+		display: block;
+		width: 30px;
+		height: 25px;
+	}
+}
+
+.footer__addr-descr {
+	width: 225px;
+
+	& button {
+		width: 130px;
+		height: 30px;
+		font-size: 12px;
+		font-weight: 500;
+		color: $yellow;
+		padding: 5px 10px;
+	}
+}
+
+.footer__phone-descr {
+	width: 130px;
+
+	& button {
+		width: 130px;
+		height: 30px;
+		font-size: 12px;
+		font-weight: 500;
+		color: $yellow;
+		padding: 5px 10px;
+	}
+}
+
+.footer__mail-descr {
+	width: 240px;
+	margin-left: 15px;
+
+	& button {
+		width: 130px;
+		height: 30px;
+		font-size: 12px;
+		font-weight: 500;
+		color: $yellow;
+		padding: 5px 10px;
+	}
+}
+
+.footer__addr-title,
+.footer__phone-title,
+.footer__mail-title {
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	color: $gray-text;
+}
+
+.footer__addr-text,
+.footer__phone-text,
+.footer__mail-text {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+
+.footer__phone {
+	width: 175px;
+	display: flex;
+	justify-content: space-between;
+
+	& img {
+		display: block;
+		width: 30px;
+		height: 25px;
+	}
+}
+
+.footer__mail {
+	width: 275px;
+	display: flex;
+	justify-content: space-between;
+
+	& img {
+		display: block;
+		width: 30px;
+		height: 25px;
+	}
+}
+
+.footer-copy {
+	display: flex;
+	justify-content: center;
+	padding: 23px 0 20px;
+	background-color: $footer-bg;
+	color: $footer-text;
+	font-size: 13px;
+
+	& a {
+		color: $footer-text;
+		text-decoration: none;
+		margin-left: 20px;
+	}
+}

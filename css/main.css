@@ -189,4 +189,173 @@ h4 {
 .header-pay__money span {
   font-size: 13px;
 }
+
+.footer__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 75px 0 65px;
+}
+
+.footer__contact {
+  width: 230px;
+}
+
+.footer__contact h2 {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.footer__contact-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__contact-submit button {
+  width: 170px;
+  height: 45px;
+  border-radius: 3px;
+  border: none;
+  background-color: #e8ce3b;
+  color: #191919;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer__addr {
+  width: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__addr img {
+  display: block;
+  width: 30px;
+  height: 25px;
+}
+
+.footer__addr-descr {
+  width: 225px;
+}
+
+.footer__addr-descr button {
+  width: 130px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #e8ce3b;
+  padding: 5px 10px;
+}
+
+.footer__phone-descr {
+  width: 130px;
+}
+
+.footer__phone-descr button {
+  width: 130px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #e8ce3b;
+  padding: 5px 10px;
+}
+
+.footer__mail-descr {
+  width: 240px;
+  margin-left: 15px;
+}
+
+.footer__mail-descr button {
+  width: 130px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #e8ce3b;
+  padding: 5px 10px;
+}
+
+.footer__addr-title,
+.footer__phone-title,
+.footer__mail-title {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #626262;
+}
+
+.footer__addr-text,
+.footer__phone-text,
+.footer__mail-text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.footer__phone {
+  width: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__phone img {
+  display: block;
+  width: 30px;
+  height: 25px;
+}
+
+.footer__mail {
+  width: 275px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__mail img {
+  display: block;
+  width: 30px;
+  height: 25px;
+}
+
+.footer-copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 23px 0 20px;
+  background-color: #2a2a2a;
+  color: #878787;
+  font-size: 13px;
+}
+
+.footer-copy a {
+  color: #878787;
+  text-decoration: none;
+  margin-left: 20px;
+}
 /*# sourceMappingURL=main.css.map */
