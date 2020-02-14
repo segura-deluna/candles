@@ -38,4 +38,12 @@
 	& li:nth-child(20) {
 		border-bottom: none;
 	}
+
+	& a {
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: 400;
+		color: $text-list;
+
+	}
 }
