@@ -1,0 +1,10 @@
+// main: main.scss
+
+.page-title {
+	& h1 {
+		font-size: 28px;
+		font-weight: 400;
+		color: $text-list;
+		margin-bottom: 35px;
+	}
+}

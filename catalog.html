@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Главная</title>
+	<title>Каталог</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800&display=swap&subset=cyrillic"
 		rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<header class="header">
+	<header class="header header-catalog">
 		<div class="container">
 			<div class="header__wrap">
 				<div class="header-logo">
@@ -27,8 +27,8 @@
 				<!-- /.header-logo -->
 				<div class="header-menu">
 					<nav>
-						<a href="index.html" class="current">Главная</a>
-						<a href="catalog.html">Каталог</a>
+						<a href="index.html">Главная</a>
+						<a href="catalog.html" class="current">Каталог</a>
 						<a href="#">О нас</a>
 						<a href="#">Услуги</a>
 						<a href="#">Контакты</a>
@@ -64,41 +64,25 @@
 		<!-- /.container -->
 	</header>
 
-
-	<div class="first-screen">
-		<div class="container">
-			<h1>Производство и продажа парафиновых свечей оптом</h1>
-			<div class="first-screen__list">
-				<ul>
-					<li>Свечи в торт</li>
-					<li>Свечи праздничные</li>
-				</ul>
-				<ul>
-					<li>Свечи цифры</li>
-					<li>Сувенирные свечи</li>
-				</ul>
-			</div>
-			<div class="first-screen__btn">
-				<a href="#">Смотреть каталог</a>
-			</div>
+	<div class="container">
+		<div class="crumbs">
+			<nav>
+				<a href="index.html">Главная &nbsp; &gt;</a>
+				<a href="#">&nbsp;Каталог</a>
+			</nav>
 		</div>
-	</div>
-	<!-- /.first-screen -->
+		<!-- /.crumbs -->
 
-	<div class="search">
-		<div class="container">
-			<div class="search-input">
-				<input type="text" placeholder="Быстрый поиск по продукции">
-				<img src="img/search.png" alt="">
-			</div>
+		<div class="page-title">
+			<h1>Каталог свечей</h1>
 		</div>
+		<!-- /.page-title -->
 	</div>
-	<!-- /.search -->
 
 
-	<div class="catalog-product">
+	<div class="catalog-product ">
 		<div class="container">
-			<div class="catalog-wrap">
+			<div class="catalog-wrap catalog-product--main">
 				<aside class="catalog-list">
 					<div class="catalog-list__head">
 						<div class="catalog-list__img">
@@ -367,161 +351,6 @@
 		</div>
 	</div>
 	<!-- /.catalog-product -->
-
-	<div class="about">
-		<div class="container">
-			<div class="about__item">
-				<div class="about__title">
-					<h2>О компании</h2>
-				</div>
-				<div class="about__text">
-					<p>
-						Производство парафиновых свечей – основное направление
-						деятельности нашей компании. Работая в сфере изготовления
-						парафиновых свечей уже более десяти лет, мы предлагаем
-						продукцию только безупречного качества.
-					</p>
-					<p>
-						В нашем ассортименте представлены разнообразные, яркие,
-						праздничные свечи в торт. Среди широкого ассортимента
-						разнообразные формы, размеры, цвета, можно сформировать
-						наборы из различных вариантов на любую тематику.
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /.about -->
-
-	<div class="development">
-		<div class="container">
-			<div class="development__wrap">
-				<div class="development__items">
-					<div class="development__items-row">
-						<div class="development__items-card">
-							<div class="development__items-img">
-								<img src="img/dev-1.png" alt="">
-							</div>
-							<div class="development__items-text">
-								<p>
-									Изготавливаем свечи под <br>
-									Вашей торговой маркой
-								</p>
-							</div>
-						</div>
-						<div class="development__items-card">
-							<div class="development__items-img">
-								<img src="img/dev-2.png" alt="">
-							</div>
-							<div class="development__items-text">
-								<p>
-									Создаем уникальный дизайн <br>
-									свечей
-								</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="development__items-row">
-						<div class="development__items-card">
-							<div class="development__items-img">
-								<img src="img/dev-3.png" alt="">
-							</div>
-							<div class="development__items-text">
-								<p>
-									Возможно использование <br>
-									Вашего дизайна
-								</p>
-							</div>
-						</div>
-						<div class="development__items-card">
-							<div class="development__items-img">
-								<img src="img/dev-4.png" alt="">
-							</div>
-							<div class="development__items-text">
-								<p>
-									Оказываем услуги по <br>
-									блистерной упаковке
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="development__descr">
-					<div class="development__descr-title">
-						<h2>Наша компания
-							постоянно развивается
-							и растет
-						</h2>
-					</div>
-					<p>
-						Мы предоставляем широкий спектр услуг
-						обеспечивающий прекрасный результат и
-						положительное влияние на вашу
-						деятельность.
-					</p>
-					<div class="development__descr-btn">
-						<a href="#">Перейти в каталог &nbsp; &rarr;</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /.development -->
-
-	<div class="petition">
-		<div class="container">
-			<div class="petition__wrap">
-				<div class="petition__descr">
-					<h2>
-						Не знаете какие
-						свечи выбрать?
-					</h2>
-					<p>
-						Оставьте заявку и наш менеджер поможет
-						в выборе, порекомендует и посоветует, а так же
-						сделает Вам индивидуальное предложение.
-					</p>
-					<img src="img/arrow-dush.png" alt="">
-				</div>
-				<div class="petition__form">
-					<form action="form.php">
-						<div class="petition__form-row">
-							<div class="petition__form-item">
-								<p>Как к Вам обращаться?</p>
-								<input type="text" placeholder="Ваше имя">
-							</div>
-							<div class="petition__form-item">
-								<p>Для чего нужны свечи?</p>
-								<input type="text" placeholder="Например: для праздников">
-							</div>
-						</div>
-						<div class="petition__form-row">
-							<div class="petition__form-item">
-								<p>Электронная почта</p>
-								<input type="email" placeholder="Ваш e-mail">
-							</div>
-							<div class="petition__form-item">
-								<p>Контактный телефон</p>
-								<input type="tel" placeholder="+7 (___) ___-__-__">
-							</div>
-						</div>
-						<div class="petition__form-row">
-							<div class="check">
-								<input type="checkbox" id="check" class="check-input">
-								<label for="check" class="check-label">
-									<span>Согласен на обработку персональных
-										данных</span>
-								</label>
-							</div>
-							<button type="submit">Оставить заявку</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /.petition -->
 
 
 	<footer class="footer">
