@@ -8,6 +8,10 @@
 	border: 1px solid $gray-btn;
 	border-radius: 5px;
 	transition: all .3s ease;
+
+	& img {
+		width: 100%;
+	}
 }
 
 .card:hover {

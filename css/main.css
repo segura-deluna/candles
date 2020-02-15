@@ -392,6 +392,10 @@ button {
   transition: all .3s ease;
 }
 
+.card img {
+  width: 100%;
+}
+
 .card:hover {
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
