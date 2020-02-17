@@ -1,0 +1,33 @@
+// main: main.scss
+
+.services-list {
+	& p {
+		width: 100%;
+		max-width: 670px;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 25px;
+		margin-bottom: 50px;
+	}
+}
+
+
+.services-list__wrap {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.services-list__item {
+	width: 100%;
+	max-width: 275px;
+
+	& p {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 25px;
+		width: 225px;
+		margin: 25px 0;
+	}
+}

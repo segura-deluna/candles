@@ -1283,6 +1283,39 @@ button {
   opacity: 1;
 }
 
+.services-list p {
+  width: 100%;
+  max-width: 670px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 50px;
+}
+
+.services-list__wrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.services-list__item {
+  width: 100%;
+  max-width: 275px;
+}
+
+.services-list__item p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  width: 225px;
+  margin: 25px 0;
+}
+
 .footer__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1321,7 +1354,7 @@ button {
 
 .footer__contact-submit button {
   width: 170px;
-  height: 45px;
+  height: 48px;
   border-radius: 3px;
   border: none;
   background-color: #f3d424;
@@ -1329,6 +1362,11 @@ button {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.footer__contact-submit img {
+  height: 48px;
 }
 
 .footer__addr {

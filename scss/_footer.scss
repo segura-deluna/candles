@@ -27,7 +27,7 @@
 
 	& button {
 		width: 170px;
-		height: 45px;
+		height: 48px;
 		border-radius: 3px;
 		border: none;
 		background-color: $yellow;
@@ -35,6 +35,11 @@
 		font-size: 13px;
 		font-weight: 700;
 		text-transform: uppercase;
+		margin-bottom: 4px;
+	}
+
+	& img {
+		height: 48px;
 	}
 }
 
