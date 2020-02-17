@@ -1,0 +1,89 @@
+// main: main.scss
+
+
+.page-title--contacts {
+	& h1 {
+		width: 320px;
+		margin-bottom: 70px;
+	}
+}
+
+.contacts__item {
+	position: relative;
+	width: 100%;
+	max-width: 320px;
+	margin-bottom: 140px;
+
+	& .footer__addr {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+
+		& img {
+			display: block;
+			width: 30px;
+			height: 25px;
+		}
+	}
+
+	& .footer__addr-descr {
+		width: 270px;
+
+		& button {
+			width: 130px;
+			height: 30px;
+			font-size: 12px;
+			font-weight: 500;
+			color: $yellow;
+			padding: 5px 10px;
+			border: none;
+			border-radius: 3px;
+		}
+	}
+
+	& .footer__phone-descr {
+		width: 130px;
+		margin-bottom: 20px;
+
+		& button {
+			width: 130px;
+			height: 30px;
+			font-size: 12px;
+			font-weight: 500;
+			color: $yellow;
+			padding: 5px 10px;
+			border: none;
+			border-radius: 3px;
+		}
+	}
+
+	& .footer__mail-descr {
+		width: 240px;
+		margin-left: 15px;
+		margin-bottom: 35px;
+
+		& button {
+			width: 130px;
+			height: 30px;
+			font-size: 12px;
+			font-weight: 500;
+			color: $yellow;
+			padding: 5px 10px;
+			border: none;
+			border-radius: 3px;
+		}
+	}
+}
+
+.contacts-map {
+	position: absolute;
+
+	top: 15%;
+	left: 30%;
+
+	& p {
+		width: 1180px;
+		height: 500px;
+	}
+}

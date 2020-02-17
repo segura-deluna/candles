@@ -1316,6 +1316,94 @@ button {
   margin: 25px 0;
 }
 
+.page-title--contacts h1 {
+  width: 320px;
+  margin-bottom: 70px;
+}
+
+.contacts__item {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  margin-bottom: 140px;
+}
+
+.contacts__item .footer__addr {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contacts__item .footer__addr img {
+  display: block;
+  width: 30px;
+  height: 25px;
+}
+
+.contacts__item .footer__addr-descr {
+  width: 270px;
+}
+
+.contacts__item .footer__addr-descr button {
+  width: 130px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #f3d424;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.contacts__item .footer__phone-descr {
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.contacts__item .footer__phone-descr button {
+  width: 130px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #f3d424;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.contacts__item .footer__mail-descr {
+  width: 240px;
+  margin-left: 15px;
+  margin-bottom: 35px;
+}
+
+.contacts__item .footer__mail-descr button {
+  width: 130px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #f3d424;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.contacts-map {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+.contacts-map p {
+  width: 1180px;
+  height: 500px;
+}
+
 .footer__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
