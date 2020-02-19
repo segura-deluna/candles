@@ -1801,6 +1801,9 @@ button {
   .header-pay {
     margin-left: 50px;
   }
+  .catalog-list--show {
+    display: none;
+  }
   .catalog-wrap {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1979,6 +1982,17 @@ button {
     width: 100%;
     height: 300px;
   }
+  .show-catalog__row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 0;
+  }
+  .showcase-card {
+    margin: 0 50px 30px;
+  }
 }
 
 @media (max-width: 822px) {
@@ -2135,6 +2149,9 @@ button {
   .about__title {
     text-align: center;
     margin: 0 auto;
+  }
+  .showcase-card {
+    margin: 0 auto 30px;
   }
 }
 

@@ -21,6 +21,10 @@
 		margin-left: 50px;
 	}
 
+	.catalog-list--show {
+		display: none;
+	}
+
 
 	.catalog-wrap {
 		justify-content: center;
@@ -218,6 +222,16 @@
 		}
 	}
 
+	.show-catalog__row {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 0;
+	}
+
+	.showcase-card {
+		margin: 0 50px 30px;
+	}
+
 }
 
 
@@ -406,6 +420,10 @@
 	.about__title {
 		text-align: center;
 		margin: 0 auto;
+	}
+
+	.showcase-card {
+		margin: 0 auto 30px;
 	}
 }
 
