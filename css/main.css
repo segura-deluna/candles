@@ -1048,7 +1048,18 @@ button {
   margin-bottom: 50px;
 }
 
+.about-us__img {
+  width: 100%;
+  max-width: 800px;
+}
+
+.about-us__img img {
+  width: 100%;
+}
+
 .about-us__text {
+  width: 100%;
+  max-width: 370px;
   margin-left: 30px;
 }
 
@@ -1067,6 +1078,17 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 70px;
+}
+
+.about-merit__items {
+  width: 100%;
+  max-width: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .about-merit__item {
@@ -1091,7 +1113,8 @@ button {
 
 .about-up__title {
   text-align: center;
-  width: 525px;
+  width: 100%;
+  max-width: 525px;
   margin: 0 auto 50px;
 }
 
@@ -1107,7 +1130,7 @@ button {
   line-height: 24px;
 }
 
-.about-up__items {
+.about-up__wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1115,6 +1138,17 @@ button {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: 50px;
+}
+
+.about-up__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  max-width: 590px;
 }
 
 .about-up__item {
@@ -1786,6 +1820,43 @@ button {
   .petition__descr img {
     display: none;
   }
+  .page-title__about-us h1 {
+    width: 200px;
+    margin: 0 auto 20px;
+  }
+  .about-us__wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-us__img {
+    margin-bottom: 20px;
+  }
+  .about-us__text {
+    max-width: 800px;
+    margin-left: 0;
+  }
+  .about-merit__items {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .about-merit__item {
+    margin-bottom: 30px;
+  }
+  .about-up__wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-up__item {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 1066px) {
@@ -1893,12 +1964,31 @@ button {
   .development__items-img {
     margin: 0 auto 20px;
   }
+  .about-up__item {
+    text-align: center;
+  }
 }
 
 @media (max-width: 606px) {
   .about__text {
     width: 100%;
     max-width: 570px;
+  }
+  .about-us__text p {
+    margin-bottom: 10px;
+  }
+  .about-up {
+    padding: 40px 0;
+  }
+  .about-up__wrap {
+    margin-bottom: 20px;
+  }
+  .about-up__items {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -1909,6 +1999,11 @@ button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .about-merit__wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 30px;
   }
 }
 
@@ -1926,6 +2021,9 @@ button {
   }
   .footer__contact {
     margin-bottom: 20px;
+  }
+  .about-up {
+    padding: 40px 0;
   }
 }
 

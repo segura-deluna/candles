@@ -53,6 +53,45 @@
 			display: none;
 		}
 	}
+
+	.page-title__about-us {
+		& h1 {
+			width: 200px;
+			margin: 0 auto 20px;
+		}
+	}
+
+	.about-us__wrap {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.about-us__img {
+		margin-bottom: 20px;
+	}
+
+	.about-us__text {
+		max-width: 800px;
+		margin-left: 0;
+	}
+
+	.about-merit__items {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.about-merit__item {
+		margin-bottom: 30px;
+	}
+
+	.about-up__wrap {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.about-up__item {
+		margin-bottom: 20px;
+	}
 }
 
 
@@ -182,6 +221,10 @@
 	.development__items-img {
 		margin: 0 auto 20px;
 	}
+
+	.about-up__item {
+		text-align: center;
+	}
 }
 
 
@@ -192,6 +235,25 @@
 		width: 100%;
 		max-width: 570px;
 	}
+
+	.about-us__text {
+		& p {
+			margin-bottom: 10px;
+		}
+	}
+
+	.about-up {
+		padding: 40px 0;
+	}
+
+	.about-up__wrap {
+		margin-bottom: 20px;
+	}
+
+	.about-up__items {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 }
 
 
@@ -200,6 +262,11 @@
 	.footer__wrap-item {
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+
+	.about-merit__wrap {
+		flex-wrap: wrap;
+		margin-bottom: 30px;
 	}
 }
 
@@ -222,6 +289,10 @@
 
 	.footer__contact {
 		margin-bottom: 20px;
+	}
+
+	.about-up {
+		padding: 40px 0;
 	}
 }
 

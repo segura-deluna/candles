@@ -6,7 +6,18 @@
 	margin-bottom: 50px;
 }
 
+.about-us__img {
+	width: 100%;
+	max-width: 800px;
+
+	& img {
+		width: 100%;
+	}
+}
+
 .about-us__text {
+	width: 100%;
+	max-width: 370px;
 	margin-left: 30px;
 
 	& p {
@@ -21,6 +32,13 @@
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 70px;
+}
+
+.about-merit__items {
+	width: 100%;
+	max-width: 550px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .about-merit__item {
@@ -45,7 +63,8 @@
 
 .about-up__title {
 	text-align: center;
-	width: 525px;
+	width: 100%;
+	max-width: 525px;
 	margin: 0 auto 50px;
 
 	& h2 {
@@ -61,10 +80,17 @@
 	}
 }
 
-.about-up__items {
+.about-up__wrap {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 50px;
+}
+
+.about-up__items {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 590px;
 }
 
 .about-up__item {
