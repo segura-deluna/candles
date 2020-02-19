@@ -35,6 +35,30 @@
 		flex-wrap: wrap;
 		margin-bottom: 15px;
 	}
+
+	.services-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	.services-list__wrap {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.services-list__item {
+		margin-bottom: 20px;
+	}
+
+	.contacts-map {
+		width: 800px;
+
+		& p {
+			width: 100%;
+		}
+	}
 }
 
 
@@ -51,6 +75,13 @@
 
 		& img {
 			display: none;
+		}
+	}
+
+	.page-title {
+		& h1 {
+			width: 230px;
+			margin: 0 auto 20px;
 		}
 	}
 
@@ -92,6 +123,17 @@
 	.about-up__item {
 		margin-bottom: 20px;
 	}
+
+	.contacts-map {
+		width: 700px;
+		height: 400px;
+		top: 20%;
+		left: 35%;
+
+		& p {
+			width: 100%;
+		}
+	}
 }
 
 
@@ -114,6 +156,17 @@
 
 	.development__descr-btn {
 		margin: 0 auto;
+	}
+
+	.contacts-map {
+		width: 600px;
+		height: 300px;
+		top: 20%;
+		left: 35%;
+
+		& p {
+			width: 100%;
+		}
 	}
 }
 
@@ -154,6 +207,17 @@
 		margin: 0 auto;
 	}
 
+	.contacts-map {
+		width: 450px;
+		height: 300px;
+		left: 45%;
+
+		& p {
+			width: 100%;
+			height: 300px;
+		}
+	}
+
 }
 
 
@@ -171,7 +235,22 @@
 		display: block;
 	}
 
+	.page-title--contacts {
+		text-align: center;
 
+		& h1 {
+			width: 320px;
+			margin-bottom: 70px;
+		}
+	}
+
+	.contacts__item {
+		margin: 0 auto 30px;
+	}
+
+	.contacts-map {
+		display: none;
+	}
 }
 
 
@@ -253,6 +332,23 @@
 	.about-up__items {
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+
+	.services-list__wrap {
+		margin-bottom: 10px;
+	}
+
+	.services-list__items {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.services-list__item {
+		text-align: center;
+
+		& p {
+			margin: 10px auto 20px;
+		}
 	}
 }
 
@@ -365,6 +461,33 @@
 	.footer__addr-descr,
 	.footer__phone-descr {
 		margin: 0 auto;
+	}
+
+
+	.page-title--contacts {
+
+		& h1 {
+			width: 290px;
+			margin-bottom: 40px;
+		}
+	}
+
+	.contacts__item {
+		& .footer__addr {
+			display: block;
+		}
+
+		& .footer__phone {
+			margin: 0 auto 20px;
+		}
+
+		& .footer__mail {
+			margin: 0 auto 20px;
+		}
+
+		& .footer__contact {
+			margin: 0 auto 30px;
+		}
 	}
 }
 
