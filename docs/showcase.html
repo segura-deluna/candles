@@ -15,49 +15,76 @@
 	<header class="header header-catalog">
 		<div class="container">
 			<div class="header__wrap">
-				<div class="header-logo">
-					<div class="header-logo__img">
-						<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+				<div class="header__wrap-item">
+					<div class="header-logo">
+						<div class="header-logo__img">
+							<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+						</div>
+						<div class="header-logo__text">
+							<p>ООО «Свечной маркет»</p>
+							<h3>РОССИЙСКИЙ ПРОИЗВОДИТЕЛЬ СВЕЧЕЙ</h3>
+						</div>
 					</div>
-					<div class="header-logo__text">
-						<p>ООО «Свечной маркет»</p>
-						<h3>РОССИЙСКИЙ ПРОИЗВОДИТЕЛЬ СВЕЧЕЙ</h3>
+					<!-- /.header-logo -->
+
+					<div class="header-menu">
+						<nav>
+							<a href="index.html">Главная</a>
+							<a href="catalog.html" class="current">Каталог</a>
+							<a href="about.html">О нас</a>
+							<a href="services.html">Услуги</a>
+							<a href="contacts.html">Контакты</a>
+						</nav>
 					</div>
+					<!-- /.header-menu -->
+
+					<button class="header-menu--btn open-popup" type="button" data-popup="popup1">
+						<img class="menu-icon" src="img/menu.svg" alt="burger">
+					</button>
+
+					<div id="popup1" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<nav class="header-modal">
+								<a href="index.html">Главная</a>
+								<a href="catalog.html">Каталог</a>
+								<a href="about.html">О нас</a>
+								<a href="services.html">Услуги</a>
+								<a href="contacts.html">Контакты</a>
+							</nav>
+						</div>
+					</div>
+
 				</div>
-				<!-- /.header-logo -->
-				<div class="header-menu">
-					<nav>
-						<a href="index.html">Главная</a>
-						<a href="catalog.html" class="current">Каталог</a>
-						<a href="about.html">О нас</a>
-						<a href="#">Услуги</a>
-						<a href="#">Контакты</a>
-					</nav>
+				<!-- /.header__wrap-item -->
+
+				<div class="header__wrap-item">
+					<div class="header-call">
+						<div class="header-call__w">
+							<img src="img/whatsapp.svg" alt="">
+						</div>
+						<div class="header-call__phone">
+							<img src="img/call.svg" alt="">
+						</div>
+						<p>8 (495) 999 00 85</p>
+					</div>
+					<!-- /.header-call -->
+
+					<div class="header-pay">
+						<div class="header-pay__user">
+							<img src="img/user.svg" alt="">
+						</div>
+						<div class="header-pay__basket">
+							<span class="counter">0</span>
+							<img src="img/basket.svg" alt="">
+						</div>
+						<div class="header-pay__money">
+							<span>0,00 ₽</span>
+						</div>
+					</div>
+					<!-- /.header-pay -->
 				</div>
-				<!-- /.header-menu -->
-				<div class="header-call">
-					<div class="header-call__w">
-						<img src="img/whatsapp.svg" alt="">
-					</div>
-					<div class="header-call__phone">
-						<img src="img/call.svg" alt="">
-					</div>
-					<p>8 (495) 999 00 85</p>
-				</div>
-				<!-- /.header-call -->
-				<div class="header-pay">
-					<div class="header-pay__user">
-						<img src="img/user.svg" alt="">
-					</div>
-					<div class="header-pay__basket">
-						<span class="counter">0</span>
-						<img src="img/basket.svg" alt="">
-					</div>
-					<div class="header-pay__money">
-						<span>0,00 ₽</span>
-					</div>
-				</div>
-				<!-- /.header-pay -->
+				<!-- /.header__wrap-item -->
 			</div>
 			<!-- /.header__wrap -->
 		</div>
@@ -96,25 +123,25 @@
 					<div class="catalog-list__tab">
 						<ul>
 							<li><a href="showcase.html">Буквы наборы</a></li>
-							<li>Коктельные свечи</li>
-							<li>Интерьерные свечи</li>
-							<li>Барельефные свечи</li>
-							<li>Свечи "Цифры"</li>
-							<li>Свечи "Волна"</li>
-							<li>Свечи "Звезда"</li>
-							<li>Свечи "Гиганты"</li>
-							<li>Свечи "Юбилейные"</li>
-							<li>Свечи "Мишки"</li>
-							<li>Свечи "Печатные"</li>
-							<li>Медальки на шляпках</li>
-							<li>Свечи "Сердечки"</li>
-							<li>Свечи "Конфетки"</li>
-							<li>Свечи "Совы"</li>
-							<li>Скорбительные свечи</li>
-							<li>Цифры печатные</li>
-							<li>Свечи радужные</li>
-							<li>Свечи для малышей</li>
-							<li>Свечи на шляпках</li>
+							<li><a href="#">Коктельные свечи</a></li>
+							<li><a href="#">Интерьерные свечи</a></li>
+							<li><a href="#">Барельефные свечи</a></li>
+							<li><a href="#">Свечи "Цифры"</a></li>
+							<li><a href="#">Свечи "Волна"</a></li>
+							<li><a href="#">Свечи "Звезда"</a></li>
+							<li><a href="#">Свечи "Гиганты"</a></li>
+							<li><a href="#">Свечи "Юбилейные"</a></li>
+							<li><a href="#">Свечи "Мишки"</a></li>
+							<li><a href="#">Свечи "Печатные"</a></li>
+							<li><a href="#">Медальки на шляпках</a></li>
+							<li><a href="#">Свечи "Сердечки"</a></li>
+							<li><a href="#">Свечи "Конфетки"</a></li>
+							<li><a href="#">Свечи "Совы"</a></li>
+							<li><a href="#">Скорбительные свечи</a></li>
+							<li><a href="#">Цифры печатные</a></li>
+							<li><a href="#">Свечи радужные</a></li>
+							<li><a href="#">Свечи для малышей</a></li>
+							<li><a href="#">Свечи на шляпках</a></li>
 						</ul>
 					</div>
 				</aside>
@@ -745,6 +772,8 @@
 		<!-- /.footer-copy -->
 	</footer>
 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 

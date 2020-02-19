@@ -15,6 +15,13 @@
 	align-items: center;
 }
 
+.header__wrap-item {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .header-logo {
 	width: 250px;
 	display: flex;
@@ -39,6 +46,7 @@
 
 .header-menu {
 	width: 480px;
+	margin-left: 70px;
 
 	& .current {
 		background-color: $yellow;
@@ -62,6 +70,12 @@
 		background-color: $yellow;
 	}
 }
+
+.header-menu--btn {
+	display: none;
+}
+
+
 
 .header-call {
 	display: flex;
@@ -129,4 +143,87 @@
 	& span {
 		font-size: 13px;
 	}
+}
+
+
+
+// Modal ====================
+
+.open-popup {
+	background-color: #699;
+	color: white;
+	padding: 12px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	width: 180px;
+}
+
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 150;
+	padding-top: 10px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+.modal-content {
+	position: relative;
+	background-color: #fff;
+	margin: auto;
+	padding: 10px;
+	width: 90%;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
+	animation-name: animatefade;
+	animation-duration: .5s;
+}
+
+.header-modal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	& a {
+		text-decoration: none;
+		padding: 10px 0;
+		text-decoration: none;
+		font-family: 'Montserrat',
+			sans-serif;
+		text-transform: uppercase;
+		font-size: 14px;
+		color: $black-text;
+	}
+}
+
+
+
+@keyframes animatefade {
+	from {
+		opacity: 0
+	}
+
+	to {
+		opacity: 1
+	}
+}
+
+
+.close {
+	cursor: pointer;
+	position: absolute;
+	display: block;
+	color: $black-text;
+	top: 4px;
+	right: 20px;
+	font-size: 40px;
+	font-weight: bold;
 }

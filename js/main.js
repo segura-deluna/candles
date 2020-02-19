@@ -1,4 +1,37 @@
 $(document).ready(function () {
+	"use strict";
+
+	// Modal header ==========
+
+	var popupsToggle = document.querySelectorAll('.open-popup');
+
+	var popupClose = document.querySelectorAll('.close');
+
+
+	popupsToggle.forEach(function (item) {
+		item.addEventListener('click', function () {
+			var popupName = item.getAttribute('data-popup');
+			document.getElementById(popupName).style.display = 'block';
+		})
+	})
+
+	popupClose.forEach(function (item) {
+		item.addEventListener('click', function () {
+			var popup = item.closest('.modal');
+			popup.style.display = 'none';
+		})
+	})
+
+	window.onclick = function (e) {
+		if (e.target.classList.contains('modal')) {
+			e.target.style.display = 'none';
+		}
+	}
+
+
+
+	// Slider ===========
+
 	$('.slider-for').slick({
 		slidesToShow: 1,
 		slidesToScroll: 1,

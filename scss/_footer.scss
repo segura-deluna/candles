@@ -6,6 +6,12 @@
 	padding: 75px 0 65px;
 }
 
+.footer__wrap-item {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
 .footer-catalog {
 	border-top: 1px solid $gray-btn;
 }

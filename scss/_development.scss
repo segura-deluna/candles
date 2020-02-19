@@ -45,13 +45,15 @@
 .development__descr {
 	width: 100%;
 	max-width: 455px;
+	margin-left: 25px;
 
 
 	& p {
 		font-size: 15px;
 		font-weight: 400;
 		line-height: 25px;
-		width: 370px;
+		width: 100%;
+		max-width: 370px;
 		margin-bottom: 40px;
 	}
 }

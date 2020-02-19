@@ -15,49 +15,78 @@
 	<header class="header">
 		<div class="container">
 			<div class="header__wrap">
-				<div class="header-logo">
-					<div class="header-logo__img">
-						<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+
+				<div class="header__wrap-item">
+					<div class="header-logo">
+						<div class="header-logo__img">
+							<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+						</div>
+						<div class="header-logo__text">
+							<p>ООО «Свечной маркет»</p>
+							<h3>РОССИЙСКИЙ ПРОИЗВОДИТЕЛЬ СВЕЧЕЙ</h3>
+						</div>
 					</div>
-					<div class="header-logo__text">
-						<p>ООО «Свечной маркет»</p>
-						<h3>РОССИЙСКИЙ ПРОИЗВОДИТЕЛЬ СВЕЧЕЙ</h3>
+					<!-- /.header-logo -->
+
+					<div class="header-menu">
+						<nav>
+							<a href="index.html" class="current">Главная</a>
+							<a href="catalog.html">Каталог</a>
+							<a href="about.html">О нас</a>
+							<a href="services.html">Услуги</a>
+							<a href="contacts.html">Контакты</a>
+						</nav>
 					</div>
+					<!-- /.header-menu -->
+
+					<button class="header-menu--btn open-popup" type="button" data-popup="popup1">
+						<img class="menu-icon" src="img/menu.svg" alt="burger">
+					</button>
+
+					<div id="popup1" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<nav class="header-modal">
+								<a href="index.html" class="current">Главная</a>
+								<a href="catalog.html">Каталог</a>
+								<a href="about.html">О нас</a>
+								<a href="services.html">Услуги</a>
+								<a href="contacts.html">Контакты</a>
+							</nav>
+						</div>
+					</div>
+
 				</div>
-				<!-- /.header-logo -->
-				<div class="header-menu">
-					<nav>
-						<a href="index.html" class="current">Главная</a>
-						<a href="catalog.html">Каталог</a>
-						<a href="about.html">О нас</a>
-						<a href="#">Услуги</a>
-						<a href="#">Контакты</a>
-					</nav>
+				<!-- /.header__wrap-item -->
+
+				<div class="header__wrap-item">
+					<div class="header-call">
+						<div class="header-call__w">
+							<img src="img/whatsapp.svg" alt="">
+						</div>
+						<div class="header-call__phone">
+							<img src="img/call.svg" alt="">
+						</div>
+						<p>8 (495) 999 00 85</p>
+					</div>
+					<!-- /.header-call -->
+
+					<div class="header-pay">
+						<div class="header-pay__user">
+							<img src="img/user.svg" alt="">
+						</div>
+						<div class="header-pay__basket">
+							<span class="counter">0</span>
+							<img src="img/basket.svg" alt="">
+						</div>
+						<div class="header-pay__money">
+							<span>0,00 ₽</span>
+						</div>
+					</div>
+					<!-- /.header-pay -->
 				</div>
-				<!-- /.header-menu -->
-				<div class="header-call">
-					<div class="header-call__w">
-						<img src="img/whatsapp.svg" alt="">
-					</div>
-					<div class="header-call__phone">
-						<img src="img/call.svg" alt="">
-					</div>
-					<p>8 (495) 999 00 85</p>
-				</div>
-				<!-- /.header-call -->
-				<div class="header-pay">
-					<div class="header-pay__user">
-						<img src="img/user.svg" alt="">
-					</div>
-					<div class="header-pay__basket">
-						<span class="counter">0</span>
-						<img src="img/basket.svg" alt="">
-					</div>
-					<div class="header-pay__money">
-						<span>0,00 ₽</span>
-					</div>
-				</div>
-				<!-- /.header-pay -->
+				<!-- /.header__wrap-item -->
+
 			</div>
 			<!-- /.header__wrap -->
 		</div>
@@ -79,7 +108,7 @@
 				</ul>
 			</div>
 			<div class="first-screen__btn">
-				<a href="#">Смотреть каталог</a>
+				<a href="catalog.html">Смотреть каталог</a>
 			</div>
 		</div>
 	</div>
@@ -111,25 +140,25 @@
 					<div class="catalog-list__tab">
 						<ul>
 							<li><a href="showcase.html">Буквы наборы</a></li>
-							<li>Коктельные свечи</li>
-							<li>Интерьерные свечи</li>
-							<li>Барельефные свечи</li>
-							<li>Свечи "Цифры"</li>
-							<li>Свечи "Волна"</li>
-							<li>Свечи "Звезда"</li>
-							<li>Свечи "Гиганты"</li>
-							<li>Свечи "Юбилейные"</li>
-							<li>Свечи "Мишки"</li>
-							<li>Свечи "Печатные"</li>
-							<li>Медальки на шляпках</li>
-							<li>Свечи "Сердечки"</li>
-							<li>Свечи "Конфетки"</li>
-							<li>Свечи "Совы"</li>
-							<li>Скорбительные свечи</li>
-							<li>Цифры печатные</li>
-							<li>Свечи радужные</li>
-							<li>Свечи для малышей</li>
-							<li>Свечи на шляпках</li>
+							<li><a href="#">Коктельные свечи</a></li>
+							<li><a href="#">Интерьерные свечи</a></li>
+							<li><a href="#">Барельефные свечи</a></li>
+							<li><a href="#">Свечи "Цифры"</a></li>
+							<li><a href="#">Свечи "Волна"</a></li>
+							<li><a href="#">Свечи "Звезда"</a></li>
+							<li><a href="#">Свечи "Гиганты"</a></li>
+							<li><a href="#">Свечи "Юбилейные"</a></li>
+							<li><a href="#">Свечи "Мишки"</a></li>
+							<li><a href="#">Свечи "Печатные"</a></li>
+							<li><a href="#">Медальки на шляпках</a></li>
+							<li><a href="#">Свечи "Сердечки"</a></li>
+							<li><a href="#">Свечи "Конфетки"</a></li>
+							<li><a href="#">Свечи "Совы"</a></li>
+							<li><a href="#">Скорбительные свечи</a></li>
+							<li><a href="#">Цифры печатные</a></li>
+							<li><a href="#">Свечи радужные</a></li>
+							<li><a href="#">Свечи для малышей</a></li>
+							<li><a href="#">Свечи на шляпках</a></li>
 						</ul>
 					</div>
 				</aside>
@@ -137,225 +166,256 @@
 				<main class="catalog-card">
 					<div class="catalog-card__row">
 
-						<div class="card">
-							<img src="img/cards/card-1.jpg" alt="">
-							<div class="card__title">
-								<p>Буквы наборы</p>
-								<div class="card__link">
-									<a href="showcase.html" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+						<div class="catalog-card__item">
+							<div class="card">
+								<img src="img/cards/card-1.jpg" alt="">
+								<div class="card__title">
+									<p>Буквы наборы</p>
+									<div class="card__link">
+										<a href="showcase.html" class="card-arrow"><img src="img/next-link.svg"
+												alt=""></a>
+									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="card">
-							<img src="img/cards/card-2.jpg" alt="">
-							<div class="card__title">
-								<p>Коктельные свечи</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+							<div class="card">
+								<img src="img/cards/card-2.jpg" alt="">
+								<div class="card__title">
+									<p>Коктельные свечи</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
 						</div>
+						<!-- /.catalog-card__item -->
 
-						<div class="card">
-							<img src="img/cards/card-3.jpg" alt="">
-							<div class="card__title">
-								<p>Интерьерные свечи</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+						<div class="catalog-card__item">
+							<div class="card">
+								<img src="img/cards/card-3.jpg" alt="">
+								<div class="card__title">
+									<p>Интерьерные свечи</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="card">
-							<img src="img/cards/card-4.jpg" alt="">
-							<div class="card__title">
-								<p>Барельефные свечи</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+							<div class="card">
+								<img src="img/cards/card-4.jpg" alt="">
+								<div class="card__title">
+									<p>Барельефные свечи</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
 						</div>
+						<!-- /.catalog-card__item -->
 
 					</div>
 					<!-- /.catalog-card__row -->
 
 					<div class="catalog-card__row">
 
-						<div class="card">
-							<img src="img/cards/card-5.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи "Цифры"</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+						<div class="catalog-card__item">
+							<div class="card">
+								<img src="img/cards/card-5.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи "Цифры"</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="card">
-							<img src="img/cards/card-6.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи "Волна"</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+							<div class="card">
+								<img src="img/cards/card-6.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи "Волна"</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
 						</div>
+						<!-- /.catalog-card__item -->
 
-						<div class="card">
-							<img src="img/cards/card-7.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи "Звезда"</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+						<div class="catalog-card__item">
+							<div class="card">
+								<img src="img/cards/card-7.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи "Звезда"</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="card">
-							<img src="img/cards/card-8.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи "Гиганты"</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+							<div class="card">
+								<img src="img/cards/card-8.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи "Гиганты"</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
 						</div>
+						<!-- /.catalog-card__item -->
 
 					</div>
 					<!-- /.catalog-card__row -->
 
 					<div class="catalog-card__row">
 
-						<div class="card">
-							<img src="img/cards/card-9.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи "Юбилейные"</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+						<div class="catalog-card__item">
+							<div class="card">
+								<img src="img/cards/card-9.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи "Юбилейные"</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="card">
-							<img src="img/cards/card-10.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи "Мишки"</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+							<div class="card">
+								<img src="img/cards/card-10.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи "Мишки"</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
 						</div>
+						<!-- /.catalog-card__item -->
 
-						<div class="card">
-							<img src="img/cards/card-11.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи "Печатные"</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+						<div class="catalog-card__item">
+							<div class="card">
+								<img src="img/cards/card-11.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи "Печатные"</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="card">
-							<img src="img/cards/card-12.jpg" alt="">
-							<div class="card__title">
-								<p>Медальки на шляпках</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+							<div class="card">
+								<img src="img/cards/card-12.jpg" alt="">
+								<div class="card__title">
+									<p>Медальки на шляпках</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
 						</div>
+						<!-- /.catalog-card__item -->
 
 					</div>
 					<!-- /.catalog-card__row -->
 
 					<div class="catalog-card__row">
 
-						<div class="card">
-							<img src="img/cards/card-13.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи "Сердечки"</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+						<div class="catalog-card__item">
+							<div class="card">
+								<img src="img/cards/card-13.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи "Сердечки"</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="card">
-							<img src="img/cards/card-14.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи "Конфетки"</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+							<div class="card">
+								<img src="img/cards/card-14.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи "Конфетки"</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
 						</div>
+						<!-- /.catalog-card__item -->
 
-						<div class="card">
-							<img src="img/cards/card-15.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи "Совы"</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+						<div class="catalog-card__item">
+							<div class="card">
+								<img src="img/cards/card-15.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи "Совы"</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="card">
-							<img src="img/cards/card-16.jpg" alt="">
-							<div class="card__title">
-								<p>Скорбительные свечи</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+							<div class="card">
+								<img src="img/cards/card-16.jpg" alt="">
+								<div class="card__title">
+									<p>Скорбительные свечи</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
 						</div>
+						<!-- /.catalog-card__item -->
 
 					</div>
 					<!-- /.catalog-card__row -->
 
 					<div class="catalog-card__row">
 
-						<div class="card">
-							<img src="img/cards/card-17.jpg" alt="">
-							<div class="card__title">
-								<p>Цифры печатные</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+						<div class="catalog-card__item">
+							<div class="card">
+								<img src="img/cards/card-17.jpg" alt="">
+								<div class="card__title">
+									<p>Цифры печатные</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="card">
-							<img src="img/cards/card-18.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи радужные</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+							<div class="card">
+								<img src="img/cards/card-18.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи радужные</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
 						</div>
+						<!-- /.catalog-card__item -->
 
-						<div class="card">
-							<img src="img/cards/card-19.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи для малышей</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+						<div class="catalog-card__item">
+							<div class="card">
+								<img src="img/cards/card-19.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи для малышей</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="card">
-							<img src="img/cards/card-20.jpg" alt="">
-							<div class="card__title">
-								<p>Свечи на шляпках</p>
-								<div class="card__link">
-									<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+							<div class="card">
+								<img src="img/cards/card-20.jpg" alt="">
+								<div class="card__title">
+									<p>Свечи на шляпках</p>
+									<div class="card__link">
+										<a href="#" class="card-arrow"><img src="img/next-link.svg" alt=""></a>
+									</div>
 								</div>
 							</div>
 						</div>
+						<!-- /.catalog-card__item -->
 
 					</div>
 					<!-- /.catalog-card__row -->
@@ -527,62 +587,70 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__wrap">
-				<div class="footer__contact">
-					<h2>Свяжитесь с нами</h2>
-					<div class="footer__contact-submit">
-						<button type="submit">Оставить заявку</button>
-						<a href="#"><img src="img/inst.png" alt=""></a>
+				<div class="footer__wrap-item">
+					<div class="footer__contact">
+						<h2>Свяжитесь с нами</h2>
+						<div class="footer__contact-submit">
+							<button type="submit">Оставить заявку</button>
+							<a href="#"><img src="img/inst.png" alt=""></a>
+						</div>
 					</div>
-				</div>
-				<!-- /.footer__contact -->
-				<div class="footer__addr">
-					<img src="img/geo.svg" alt="">
-					<div class="footer__addr-descr">
-						<div class="footer__addr-title">
-							Адрес:
+					<!-- /.footer__contact -->
+					<div class="footer__addr">
+						<img src="img/geo.svg" alt="">
+						<div class="footer__addr-descr">
+							<div class="footer__addr-title">
+								Адрес:
+							</div>
+							<div class="footer__addr-text">
+								<p>
+									г. Подольск, мкр. Климовск,
+									ул. Коммунальная 5
+								</p>
+							</div>
+							<button>найти на карте</button>
 						</div>
-						<div class="footer__addr-text">
-							<p>
-								г. Подольск, мкр. Климовск,
-								ул. Коммунальная 5
-							</p>
-						</div>
-						<button>найти на карте</button>
 					</div>
+					<!-- /.footer__addr -->
 				</div>
-				<!-- /.footer__addr -->
-				<div class="footer__phone">
-					<img src="img/phone-thin.svg" alt="">
-					<div class="footer__phone-descr">
-						<div class="footer__phone-title">
-							Телефоны:
+				<!-- /.footer__wrap-item -->
+
+				<div class="footer__wrap-item">
+					<div class="footer__phone">
+						<img src="img/phone-thin.svg" alt="">
+						<div class="footer__phone-descr">
+							<div class="footer__phone-title">
+								Телефоны:
+							</div>
+							<div class="footer__phone-text">
+								<p>
+									8 (495) 999 00 85
+									8 (963) 994 32 77
+								</p>
+							</div>
+							<button>заказать звонок</button>
 						</div>
-						<div class="footer__phone-text">
-							<p>
-								8 (495) 999 00 85
-								8 (963) 994 32 77
-							</p>
-						</div>
-						<button>заказать звонок</button>
 					</div>
-				</div>
-				<!-- /.footer__phone -->
-				<div class="footer__mail">
-					<img src="img/mail.svg" alt="">
-					<div class="footer__mail-descr">
-						<div class="footer__mail-title">
-							E-mail:
+					<!-- /.footer__phone -->
+					<div class="footer__mail">
+						<img src="img/mail.svg" alt="">
+						<div class="footer__mail-descr">
+							<div class="footer__mail-title">
+								E-mail:
+							</div>
+							<div class="footer__mail-text">
+								<p>
+									svechamarket2016@gmail.com
+									svecha-m2020@gmail.com
+								</p>
+							</div>
+							<button>напишите нам</button>
 						</div>
-						<div class="footer__mail-text">
-							<p>
-								svechamarket2016@gmail.com
-								svecha-m2020@gmail.com
-							</p>
-						</div>
-						<button>напишите нам</button>
 					</div>
+					<!-- /.footer__mail -->
 				</div>
-				<!-- /.footer__mail -->
+				<!-- /.footer__wrap-item -->
+
 			</div>
 			<!-- /.footer__wrap -->
 		</div>
@@ -593,6 +661,8 @@
 		<!-- /.footer-copy -->
 	</footer>
 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 

@@ -15,49 +15,76 @@
 	<header class="header header-catalog">
 		<div class="container">
 			<div class="header__wrap">
-				<div class="header-logo">
-					<div class="header-logo__img">
-						<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+				<div class="header__wrap-item">
+					<div class="header-logo">
+						<div class="header-logo__img">
+							<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+						</div>
+						<div class="header-logo__text">
+							<p>ООО «Свечной маркет»</p>
+							<h3>РОССИЙСКИЙ ПРОИЗВОДИТЕЛЬ СВЕЧЕЙ</h3>
+						</div>
 					</div>
-					<div class="header-logo__text">
-						<p>ООО «Свечной маркет»</p>
-						<h3>РОССИЙСКИЙ ПРОИЗВОДИТЕЛЬ СВЕЧЕЙ</h3>
+					<!-- /.header-logo -->
+
+					<div class="header-menu">
+						<nav>
+							<a href="index.html">Главная</a>
+							<a href="catalog.html">Каталог</a>
+							<a href="about.html">О нас</a>
+							<a href="services.html">Услуги</a>
+							<a href="contacts.html" class="current">Контакты</a>
+						</nav>
 					</div>
+					<!-- /.header-menu -->
+
+					<button class="header-menu--btn open-popup" type="button" data-popup="popup1">
+						<img class="menu-icon" src="img/menu.svg" alt="burger">
+					</button>
+
+					<div id="popup1" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<nav class="header-modal">
+								<a href="index.html">Главная</a>
+								<a href="catalog.html">Каталог</a>
+								<a href="about.html">О нас</a>
+								<a href="services.html">Услуги</a>
+								<a href="contacts.html">Контакты</a>
+							</nav>
+						</div>
+					</div>
+
 				</div>
-				<!-- /.header-logo -->
-				<div class="header-menu">
-					<nav>
-						<a href="index.html">Главная</a>
-						<a href="catalog.html">Каталог</a>
-						<a href="about.html">О нас</a>
-						<a href="services.html">Услуги</a>
-						<a href="contacts.html" class="current">Контакты</a>
-					</nav>
+				<!-- /.header__wrap-item -->
+
+				<div class="header__wrap-item">
+					<div class="header-call">
+						<div class="header-call__w">
+							<img src="img/whatsapp.svg" alt="">
+						</div>
+						<div class="header-call__phone">
+							<img src="img/call.svg" alt="">
+						</div>
+						<p>8 (495) 999 00 85</p>
+					</div>
+					<!-- /.header-call -->
+
+					<div class="header-pay">
+						<div class="header-pay__user">
+							<img src="img/user.svg" alt="">
+						</div>
+						<div class="header-pay__basket">
+							<span class="counter">0</span>
+							<img src="img/basket.svg" alt="">
+						</div>
+						<div class="header-pay__money">
+							<span>0,00 ₽</span>
+						</div>
+					</div>
+					<!-- /.header-pay -->
 				</div>
-				<!-- /.header-menu -->
-				<div class="header-call">
-					<div class="header-call__w">
-						<img src="img/whatsapp.svg" alt="">
-					</div>
-					<div class="header-call__phone">
-						<img src="img/call.svg" alt="">
-					</div>
-					<p>8 (495) 999 00 85</p>
-				</div>
-				<!-- /.header-call -->
-				<div class="header-pay">
-					<div class="header-pay__user">
-						<img src="img/user.svg" alt="">
-					</div>
-					<div class="header-pay__basket">
-						<span class="counter">0</span>
-						<img src="img/basket.svg" alt="">
-					</div>
-					<div class="header-pay__money">
-						<span>0,00 ₽</span>
-					</div>
-				</div>
-				<!-- /.header-pay -->
+				<!-- /.header__wrap-item -->
 			</div>
 			<!-- /.header__wrap -->
 		</div>
@@ -135,16 +162,13 @@
 
 		<div class="contacts-map">
 			<p>
-				<script type="text/javascript" charset="utf-8" async
+				<script async
 					src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae1d7d15b78b4f28f6fb262d6864a94ccac70d027daebfbb1512d061c83005408&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=true">
 				</script>
 			</p>
 		</div>
 		<!-- /.contacts-map -->
 	</div>
-
-
-
 
 
 	<footer class="footer">
@@ -155,6 +179,8 @@
 		<!-- /.footer-copy -->
 	</footer>
 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 

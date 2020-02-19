@@ -16,49 +16,76 @@
 	<header class="header header-catalog">
 		<div class="container">
 			<div class="header__wrap">
-				<div class="header-logo">
-					<div class="header-logo__img">
-						<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+				<div class="header__wrap-item">
+					<div class="header-logo">
+						<div class="header-logo__img">
+							<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+						</div>
+						<div class="header-logo__text">
+							<p>ООО «Свечной маркет»</p>
+							<h3>РОССИЙСКИЙ ПРОИЗВОДИТЕЛЬ СВЕЧЕЙ</h3>
+						</div>
 					</div>
-					<div class="header-logo__text">
-						<p>ООО «Свечной маркет»</p>
-						<h3>РОССИЙСКИЙ ПРОИЗВОДИТЕЛЬ СВЕЧЕЙ</h3>
+					<!-- /.header-logo -->
+
+					<div class="header-menu">
+						<nav>
+							<a href="index.html">Главная</a>
+							<a href="catalog.html">Каталог</a>
+							<a href="about.html" class="current">О нас</a>
+							<a href="services.html">Услуги</a>
+							<a href="contacts.html">Контакты</a>
+						</nav>
 					</div>
+					<!-- /.header-menu -->
+
+					<button class="header-menu--btn open-popup" type="button" data-popup="popup1">
+						<img class="menu-icon" src="img/menu.svg" alt="burger">
+					</button>
+
+					<div id="popup1" class="modal">
+						<div class="modal-content">
+							<span class="close">&times;</span>
+							<nav class="header-modal">
+								<a href="index.html">Главная</a>
+								<a href="catalog.html">Каталог</a>
+								<a href="about.html">О нас</a>
+								<a href="services.html">Услуги</a>
+								<a href="contacts.html">Контакты</a>
+							</nav>
+						</div>
+					</div>
+
 				</div>
-				<!-- /.header-logo -->
-				<div class="header-menu">
-					<nav>
-						<a href="index.html">Главная</a>
-						<a href="catalog.html">Каталог</a>
-						<a href="about.html" class="current">О нас</a>
-						<a href="#">Услуги</a>
-						<a href="#">Контакты</a>
-					</nav>
+				<!-- /.header__wrap-item -->
+
+				<div class="header__wrap-item">
+					<div class="header-call">
+						<div class="header-call__w">
+							<img src="img/whatsapp.svg" alt="">
+						</div>
+						<div class="header-call__phone">
+							<img src="img/call.svg" alt="">
+						</div>
+						<p>8 (495) 999 00 85</p>
+					</div>
+					<!-- /.header-call -->
+
+					<div class="header-pay">
+						<div class="header-pay__user">
+							<img src="img/user.svg" alt="">
+						</div>
+						<div class="header-pay__basket">
+							<span class="counter">0</span>
+							<img src="img/basket.svg" alt="">
+						</div>
+						<div class="header-pay__money">
+							<span>0,00 ₽</span>
+						</div>
+					</div>
+					<!-- /.header-pay -->
 				</div>
-				<!-- /.header-menu -->
-				<div class="header-call">
-					<div class="header-call__w">
-						<img src="img/whatsapp.svg" alt="">
-					</div>
-					<div class="header-call__phone">
-						<img src="img/call.svg" alt="">
-					</div>
-					<p>8 (495) 999 00 85</p>
-				</div>
-				<!-- /.header-call -->
-				<div class="header-pay">
-					<div class="header-pay__user">
-						<img src="img/user.svg" alt="">
-					</div>
-					<div class="header-pay__basket">
-						<span class="counter">0</span>
-						<img src="img/basket.svg" alt="">
-					</div>
-					<div class="header-pay__money">
-						<span>0,00 ₽</span>
-					</div>
-				</div>
-				<!-- /.header-pay -->
+				<!-- /.header__wrap-item -->
 			</div>
 			<!-- /.header__wrap -->
 		</div>
@@ -213,62 +240,69 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="footer__wrap ">
-				<div class="footer__contact">
-					<h2>Свяжитесь с нами</h2>
-					<div class="footer__contact-submit">
-						<button type="submit">Оставить заявку</button>
-						<a href="#"><img src="img/inst.png" alt=""></a>
+				<div class="footer__wrap-item">
+					<div class="footer__contact">
+						<h2>Свяжитесь с нами</h2>
+						<div class="footer__contact-submit">
+							<button type="submit">Оставить заявку</button>
+							<a href="#"><img src="img/inst.png" alt=""></a>
+						</div>
 					</div>
-				</div>
-				<!-- /.footer__contact -->
-				<div class="footer__addr">
-					<img src="img/geo.svg" alt="">
-					<div class="footer__addr-descr">
-						<div class="footer__addr-title">
-							Адрес:
+					<!-- /.footer__contact -->
+					<div class="footer__addr">
+						<img src="img/geo.svg" alt="">
+						<div class="footer__addr-descr">
+							<div class="footer__addr-title">
+								Адрес:
+							</div>
+							<div class="footer__addr-text">
+								<p>
+									г. Подольск, мкр. Климовск,
+									ул. Коммунальная 5
+								</p>
+							</div>
+							<button>найти на карте</button>
 						</div>
-						<div class="footer__addr-text">
-							<p>
-								г. Подольск, мкр. Климовск,
-								ул. Коммунальная 5
-							</p>
-						</div>
-						<button>найти на карте</button>
 					</div>
+					<!-- /.footer__addr -->
 				</div>
-				<!-- /.footer__addr -->
-				<div class="footer__phone">
-					<img src="img/phone-thin.svg" alt="">
-					<div class="footer__phone-descr">
-						<div class="footer__phone-title">
-							Телефоны:
+				<!-- /.footer__wrap-item -->
+
+				<div class="footer__wrap-item">
+					<div class="footer__phone">
+						<img src="img/phone-thin.svg" alt="">
+						<div class="footer__phone-descr">
+							<div class="footer__phone-title">
+								Телефоны:
+							</div>
+							<div class="footer__phone-text">
+								<p>
+									8 (495) 999 00 85
+									8 (963) 994 32 77
+								</p>
+							</div>
+							<button>заказать звонок</button>
 						</div>
-						<div class="footer__phone-text">
-							<p>
-								8 (495) 999 00 85
-								8 (963) 994 32 77
-							</p>
-						</div>
-						<button>заказать звонок</button>
 					</div>
-				</div>
-				<!-- /.footer__phone -->
-				<div class="footer__mail">
-					<img src="img/mail.svg" alt="">
-					<div class="footer__mail-descr">
-						<div class="footer__mail-title">
-							E-mail:
+					<!-- /.footer__phone -->
+					<div class="footer__mail">
+						<img src="img/mail.svg" alt="">
+						<div class="footer__mail-descr">
+							<div class="footer__mail-title">
+								E-mail:
+							</div>
+							<div class="footer__mail-text">
+								<p>
+									svechamarket2016@gmail.com
+									svecha-m2020@gmail.com
+								</p>
+							</div>
+							<button>напишите нам</button>
 						</div>
-						<div class="footer__mail-text">
-							<p>
-								svechamarket2016@gmail.com
-								svecha-m2020@gmail.com
-							</p>
-						</div>
-						<button>напишите нам</button>
 					</div>
+					<!-- /.footer__mail -->
 				</div>
-				<!-- /.footer__mail -->
+				<!-- /.footer__wrap-item -->
 			</div>
 			<!-- /.footer__wrap -->
 		</div>
@@ -279,6 +313,8 @@
 		<!-- /.footer-copy -->
 	</footer>
 
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 
