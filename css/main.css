@@ -1845,6 +1845,27 @@ button {
   .contacts-map p {
     width: 100%;
   }
+  .main-card__wrap {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-card__slider {
+    margin-bottom: 50px;
+  }
+  .main-card__title h2 {
+    width: 210px;
+    margin: 30px auto;
+  }
+  .related-products {
+    margin-bottom: 30px;
+  }
+  .related-products__title h3 {
+    width: 340px;
+    margin: 0 auto 40px;
+  }
 }
 
 @media (max-width: 1180px) {
@@ -1868,6 +1889,10 @@ button {
   .page-title__about-us h1 {
     width: 200px;
     margin: 0 auto 20px;
+  }
+  .page-title__product h1 {
+    width: 530px;
+    margin: 0 auto 30px;
   }
   .about-us__wrap {
     -ms-flex-wrap: wrap;
@@ -2102,6 +2127,34 @@ button {
   .services-list__item p {
     margin: 10px auto 20px;
   }
+  .page-title__product h1 {
+    width: 280px;
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+  .slider-nav {
+    display: none;
+  }
+  .main-card__case {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-card__case-btn {
+    margin: 20px auto 0;
+  }
+  .main-card__count {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-card__count p {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 568px) {
@@ -2274,6 +2327,13 @@ button {
   .footer-copy a {
     margin-left: 0;
   }
+  .main-card__suptitle {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media (max-width: 372px) {
@@ -2299,11 +2359,44 @@ button {
     top: 15px;
     right: 20px;
   }
+  .main-card__slider {
+    display: none;
+  }
+  .main-card__case {
+    padding: 25px 10px;
+  }
+  .main-card__case input {
+    width: 55px;
+    height: 40px;
+    padding-left: 20px;
+  }
+  .main-card__case span {
+    margin-right: 0;
+  }
+  .main-card__count-plate {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main-card__piece {
+    margin-bottom: 15px;
+  }
+  .main-card__items {
+    padding: 35px 20px 20px;
+  }
 }
 
 @media (max-width: 337px) {
   .header-menu--btn {
     margin-left: 15px;
+  }
+  .main-card__suptitle p:nth-child(2) {
+    font-size: 12px;
+  }
+  .related-products__title h3 {
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=main.css.map */
