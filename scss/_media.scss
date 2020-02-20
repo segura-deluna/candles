@@ -446,10 +446,13 @@
 
 
 	.catalog-card__item {
-		justify-content: center;
+		flex-wrap: nowrap;
 	}
 
 	.card {
+
+		height: auto;
+		margin-right: 5px;
 		margin-bottom: 20px;
 	}
 

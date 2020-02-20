@@ -1,8 +1,10 @@
 // main: main.scss
 
 .card {
-	width: 218px;
-	height: 240px;
+	width: 100%;
+	max-width: 218px;
+	height: 100%;
+	max-height: 240px;
 	margin-left: 15px;
 
 	border: 1px solid $gray-btn;
